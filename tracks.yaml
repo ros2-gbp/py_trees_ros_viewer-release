@@ -72,8 +72,8 @@ tracks:
     patches: null
     release_inc: '1'
     release_repo_url: null
-    release_tag: 0.2.4
+    release_tag: 0.2.5
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/splintered-reality/py_trees_ros_viewer
-    version: 0.2.4
+    version: 0.2.5
