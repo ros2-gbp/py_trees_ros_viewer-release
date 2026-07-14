@@ -47,7 +47,7 @@ def msg_constant_to_behaviour_str(value: int) -> str:
         value: see the message definition for details
 
     Returns:
-        the bheaviour class type as a string (e.g. 'Sequence')
+        the behaviour class type as a string (e.g. 'Sequence')
 
     Raises:
         TypeError: if the message type is unrecognised
@@ -60,6 +60,8 @@ def msg_constant_to_behaviour_str(value: int) -> str:
         return 'Selector'
     elif value == py_trees_msgs.Behaviour.PARALLEL:
         return 'Parallel'
+    elif value == py_trees_msgs.Behaviour.COMPOSITE:
+        return 'Composite'
     elif value == py_trees_msgs.Behaviour.DECORATOR:
         return 'Decorator'
     elif value == py_trees_msgs.Behaviour.BEHAVIOUR:
