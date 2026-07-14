@@ -1,3 +1,26 @@
+## py_trees_ros_viewer (kilted) - 0.3.0-1
+
+The packages in the `py_trees_ros_viewer` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted py_trees_ros_viewer -e` on `Tue, 14 Jul 2026 02:03:35 -0000`
+
+The `py_trees_ros_viewer` package was released.
+
+Version of package(s) in repository `py_trees_ros_viewer`:
+
+- upstream repository: https://github.com/splintered-reality/py_trees_ros_viewer
+- release repository: https://github.com/ros2-gbp/py_trees_ros_viewer-release.git
+- rosdistro version: `0.2.5-2`
+- old version: `0.2.5-2`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## py_trees_ros_viewer (jazzy) - 0.3.0-1
 
 The packages in the `py_trees_ros_viewer` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy py_trees_ros_viewer -e` on `Tue, 14 Jul 2026 02:01:43 -0000`
