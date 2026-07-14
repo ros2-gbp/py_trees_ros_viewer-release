@@ -172,6 +172,9 @@ def main():
         window.close()
 
     signal.signal(signal.SIGINT, on_shutdown)
+    # qt webengine (chromium) installs its own SIGTERM handler that neither
+    # terminates nor chains, leaving the application running - reclaim it
+    signal.signal(signal.SIGTERM, on_shutdown)
     timer = qt_core.QTimer()
     timer.timeout.connect(lambda: None)
     timer.start(250)
@@ -218,6 +221,7 @@ def main():
 
     backend.discovered_namespaces_changed.connect(window.on_discovered_namespaces_changed)
     backend.tree_snapshot_arrived.connect(window.on_tree_snapshot_arrived)
+    backend.connection_reset.connect(window.on_connection_reset)
     # two signals for the combo box are relevant
     #   activated - only when there is a user interaction
     #   currentTextChanged - when there is a programmatic OR user interaction
