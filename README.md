@@ -26,7 +26,7 @@ sudo apt install ros-<rosdistro>-py-trees-ros-viewer
 # In a first shell
 py-trees-tree-viewer
 # In a second shell
-ros2 launch py_trees_ros_tutorials tutorial_eight_dynamic_application_laoding_launch.py
+ros2 launch py_trees_ros_tutorials tutorial_eight_dynamic_application_loading_launch.py
 # Click 'Scan' on the qt robot dashboard interface
 # Wear a colander, I am too.
 ```
@@ -47,7 +47,7 @@ it is possible to switch between streaming services via the drop-down.
 ![Select](images/select.png?raw=true "Select a Tree Stream")
 
 At a minimum, the stream will send updates to the tree graph when the tree changes
-(i.e. when any one of the behaviours modifies it's status). Additional configuration
+(i.e. when any one of the behaviours modifies its status). Additional configuration
 of the stream can be managed via the checkboxes in the top right of the window - introspect
 on the blackboard and/or request more frequent updates (useful when tracking
 blackboard changes). 
