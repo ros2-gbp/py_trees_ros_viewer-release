@@ -106,11 +106,11 @@ tracks:
     patches: null
     release_inc: '4'
     release_repo_url: null
-    release_tag: 0.2.5
+    release_tag: 0.3.0
     ros_distro: lyrical
     vcs_type: git
     vcs_uri: https://github.com/splintered-reality/py_trees_ros_viewer
-    version: 0.2.5
+    version: 0.3.0
   rolling:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
